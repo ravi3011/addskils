@@ -1,1 +1,0 @@
-/home/rk6025/Desktop/reactapp/assignment/addskils/week-2/palindrome.py
