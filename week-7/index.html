@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+<body>
+    <div id="container">
+        <div id="div"></div>
+    </div>
+</body>
+<script>
+    let container = document.getElementById("container");
+    let divElement = document.createElement("div");
+    divElement.id = "about";
+    let divContent = document.createTextNode("About me");
+    divElement.append(divContent);
+    container.append(divElement);
+    let cloneDiv = divElement.cloneNode(true);
+    container.append(cloneDiv);
+    divElement = document.createElement("div");
+    divElement.append(document.createTextNode("Information"));
+    container.prepend(divElement);
+    container.before("Header");
+    container.after("Footer");
+    setTimeout(() => {
+        document.getElementById("about").remove();
+    }, 2000);
+    div.insertAdjacentHTML('beforebegin', '<p>Hello</p>');
+    div.insertAdjacentHTML('afterend', '<p>Bye</p>');
+</script> 
+</html>
