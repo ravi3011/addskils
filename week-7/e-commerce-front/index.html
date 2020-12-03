@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MyStore | Ecommerce Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="header">
@@ -14,18 +15,28 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="images/logo.png" width="125px">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
             </div>
+            
             <nav>
                 <ul>
+                    <li><input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button></li>
                     <li><a href="" >Home</a></li>
                     <li><a href="" >Products</a></li>
                     <li><a href="" >About</a></li>
                     <li><a href="" >Contact</a></li>
-                    <li><a href="" >Account</a></li>
+                    <li><a href="account.html" >Account</a></li>
+                    <li>
+                        <select>
+                            <option>Winter</option>
+                            <option>Summer</option>
+                        </select></li>
+                    
                 </ul>
+     
             </nav>
-            <img src="images/cart.png" width="30px" height="30px" >
+           <a href="cart.html" ><img src="images/cart.png" width="30px" height="30px" ></a>
         </div>
         <div class="row">
             <div class="col-2">
@@ -61,13 +72,185 @@
     </div>
     <!---- featured products ----->
     <div class="small-container">
-        <h2>Featured Products</h2>
+        <h2 class="title" >Featured Products</h2>
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4"></div>
-            <div class="col-4"></div>
-            <div class="col-4"></div>
+            <div class="col-4">
+                <img src="images/product-1.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+        </div>
+        <h2 class="title" >Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/product-1.jpg">
+                <h4>Red Printed Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$50.00</p>
+                <a href="" class="btn">Add To Cart &#8594;</a>
+            </div>
         </div>
     </div>
+
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="" >Contact</a></li>
+                    <li><a href="" >About</a></li>
+                    <li><a href="account.html" >SignUp</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
 </body>
 </html>
